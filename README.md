@@ -20,116 +20,25 @@ I use [this](https://daemon-tools-lite.en.softonic.com/ "Daemon Tools Lite") but
 
 You can find it easily with a quick Google search, but [this](https://drive.google.com/file/d/1ZRpL7KFqrYPmRFTfEWE4R_iJDDDRlwTj/view?usp=sharing ".zip folder with .iso of Oregon Trail II") is the version used by this tutorial.
 
+![step11](https://raw.githubusercontent.com/derrickdeejhudson/Oregon-Trail-II/main/Images/step11.png)
+
 ## Installation instructions
 
-1. Navigate to E:\Data in Windows Explorer and copy only the selected files into a new Folder, I named mine "OT2".
+Locate the source drive of your mounted .iso. Mine is (E:)
+
+Navigate to E:\Data in Windows Explorer and copy only the selected files into a new Folder, I named mine "OT2".
 
 ![step2](https://raw.githubusercontent.com/derrickdeejhudson/Oregon-Trail-II/main/Images/step2.png)
 
-If you try to run the OTII32.EXE executable you will see this error.
+If you try to run the OTII32.EXE executable at this step you will see an error.
 
 ![step3](https://raw.githubusercontent.com/derrickdeejhudson/Oregon-Trail-II/main/Images/step3.png)
 
-2. Edit the OREGONII.INI file
+Edit the OREGONII.INI file
 
 ![step4](https://raw.githubusercontent.com/derrickdeejhudson/Oregon-Trail-II/main/Images/step4.png)
 
 ## Code example
-
-The contents of which look like this.
-
-```
-[Sound]
-music=on
-sfx=on
-speech=on
-buffers=20,2000
-
-[cdrom]
-rsrcpath=d:\data
-intromovieid=100
-
-
-speed=1
-[game]
-speed=1
-
-```
-
-3. Change the highlighted portion to the source of CD drive.
-
-![step6](https://raw.githubusercontent.com/derrickdeejhudson/Oregon-Trail-II/main/Images/step6.png)
-
-Mine is BD-ROM Drive (E:), yours may be different. Use the appropriate source for your disk drive.
-
-![step7](https://raw.githubusercontent.com/derrickdeejhudson/Oregon-Trail-II/main/Images/step7.png)
-
-### Eureka!
-
-Now you are able to play from the mounted disc! However we can do better, we can make the game run without the disc having to be mounted.
-
-4. Into the same destination folder from step 1, copy over the remaining files.
-
-![step8](https://raw.githubusercontent.com/derrickdeejhudson/Oregon-Trail-II/main/Images/step8.png)
-
-again, I named folder OT2
-
-![step9](https://raw.githubusercontent.com/derrickdeejhudson/Oregon-Trail-II/main/Images/step9.png)
-
-where we saw d:\data originally
-
-```
-[cdrom]
-rsrcpath=d:\data
-intromovieid=100
-```
-
-and changed to e:
-
-```
-[cdrom]
-rsrcpath=d:\data
-intromovieid=100
-```
-
-5. we now want to set to the destination path of the folder you made.
-
-## Code example
-
-This is what the contents of OREGONII.INI look like on my machine.
-
-```
-[Sound]
-music=on
-sfx=on
-speech=on
-buffers=20,2000
-
-[cdrom]
-rsrcpath=C:\Users\DEEJ\Desktop\OT2
-intromovieid=100
-
-
-speed=1
-[game]
-speed=1
-
-```
-
-### How to Contribute
-
-![step5](https://raw.githubusercontent.com/derrickdeejhudson/Oregon-Trail-II/main/Images/step5.png)
-
-![step10](https://raw.githubusercontent.com/derrickdeejhudson/Oregon-Trail-II/main/Images/step10.png)
-
-## Troubleshooting
-
-If you are having trouble connecting to your directory, you can run the game from the disc.
-![step3](https://raw.githubusercontent.com/derrickdeejhudson/Oregon-Trail-II/main/Images/step3.png)
-
-You want to edit the OREGONII.INI
-
-![step4](https://raw.githubusercontent.com/derrickdeejhudson/Oregon-Trail-II/main/Images/step4.png)
 
 The contents of which look like this.
 
@@ -155,9 +64,79 @@ Change the highlighted portion to the source of CD drive.
 
 ![step6](https://raw.githubusercontent.com/derrickdeejhudson/Oregon-Trail-II/main/Images/step6.png)
 
-Mine is BD-ROM Drive (E:)
+Mine is BD-ROM Drive (E:), yours may be different. Use the appropriate source for your disk drive.
 
 ![step7](https://raw.githubusercontent.com/derrickdeejhudson/Oregon-Trail-II/main/Images/step7.png)
+
+### Eureka!
+
+Now you are able to play from the mounted disc! However we can do better, we can make the game run without the disc having to be mounted.
+
+Into the same destination folder from the first step, copy over the remaining files.
+
+![step8](https://raw.githubusercontent.com/derrickdeejhudson/Oregon-Trail-II/main/Images/step8.png)
+
+again, I named folder OT2
+
+![step9](https://raw.githubusercontent.com/derrickdeejhudson/Oregon-Trail-II/main/Images/step9.png)
+
+where we saw d:\data originally
+
+```
+[cdrom]
+rsrcpath=d:\data
+intromovieid=100
+```
+
+and changed to e:
+
+```
+[cdrom]
+rsrcpath=e:\data
+intromovieid=100
+```
+
+we now want to set to the destination path of the folder you made.
+
+## Code example
+
+This is what the contents of OREGONII.INI look like on my machine.
+
+```
+[Sound]
+music=on
+sfx=on
+speech=on
+buffers=20,2000
+
+[cdrom]
+rsrcpath=C:\Users\DEEJ\Desktop\OT2
+intromovieid=100
+
+
+speed=1
+[game]
+speed=1
+
+```
+
+### How to Contribute
+
+This is for the purposes of archiving games from the past that don't deserve to be forgotten. You can contribute by trying the game out for yourself so it won't be forgotten!
+
+## Troubleshooting
+
+If you are having trouble connecting to your directory, you can run the game from the disc. You want to edit the OREGONII.INI
+
+![step4](https://raw.githubusercontent.com/derrickdeejhudson/Oregon-Trail-II/main/Images/step4.png)
+
+to have the path of your BD-ROM Drive
+
+```
+[cdrom]
+rsrcpath=e:\data
+intromovieid=100
+```
 
 ## FAQs
 
