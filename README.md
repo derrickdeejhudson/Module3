@@ -10,17 +10,17 @@ The Oregon Trail series were a collection of educational games from the mid 1990
 - Software to mount an .iso file
 - Oregon Trail .iso file
 
+## Download
+
+You can find it easily with a quick Google search, but [this](https://drive.google.com/file/d/1ZRpL7KFqrYPmRFTfEWE4R_iJDDDRlwTj/view?usp=sharing ".zip folder with .iso of Oregon Trail II") is the version used by this tutorial.
+
+![step11](https://raw.githubusercontent.com/derrickdeejhudson/Oregon-Trail-II/main/Images/step11.png)
+
 ## Tools
 
 I use [this](https://daemon-tools-lite.en.softonic.com/ "Daemon Tools Lite") but you may already have something that works. You can test by right clicking the a .iso file, if "mount" is an option then you already have what you need.
 
 ![Mount](https://www.windowscentral.com/sites/wpcentral.com/files/styles/xlarge/public/field/image/2020/11/file-explorer-context-menu-mount-option.jpg)
-
-### Download
-
-You can find it easily with a quick Google search, but [this](https://drive.google.com/file/d/1ZRpL7KFqrYPmRFTfEWE4R_iJDDDRlwTj/view?usp=sharing ".zip folder with .iso of Oregon Trail II") is the version used by this tutorial.
-
-![step11](https://raw.githubusercontent.com/derrickdeejhudson/Oregon-Trail-II/main/Images/step11.png)
 
 ## Installation instructions
 
@@ -130,7 +130,7 @@ If you are having trouble connecting to your directory, you can run the game fro
 
 ![step4](https://raw.githubusercontent.com/derrickdeejhudson/Oregon-Trail-II/main/Images/step4.png)
 
-to have the path of your BD-ROM Drive
+to have the path of **your** BD-ROM Drive
 
 ```
 [cdrom]
