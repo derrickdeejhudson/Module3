@@ -10,8 +10,10 @@ The Oregon Trail series were a collection of educational games from the mid 1990
 
 - Windows
 - Software to mount an .iso file
-  I use [this](https://daemon-tools-lite.en.softonic.com/ "Daemon Tools Lite") but you may already have something that works. You can test by right clicking the a .iso file, if "mount" is an option then you already have what you need.
 - Oregon Trail .iso file
+
+![Daemon Tools](https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Daemon_tools_logo.png/120px-Daemon_tools_logo.png)
+I use [this](https://daemon-tools-lite.en.softonic.com/ "Daemon Tools Lite") but you may already have something that works. You can test by right clicking the a .iso file, if "mount" is an option then you already have what you need.
 
 ### Download
 
