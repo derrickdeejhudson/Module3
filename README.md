@@ -7,21 +7,40 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 ### Introduction
 
 The Oregon Trail series were a collection of educational games from the mid 1990's. It was designed to run on Windows 95 and will not run on windows 10. This is a guide to make this vintage classic game operate on modern Windows.
+
 ![Error on PC](https://raw.githubusercontent.com/derrickdeejhudson/Oregon-Trail-II/main/Images/step1.png "You aren't on Windows '95")
 
-Description of Equipment & List of Materials (with illustrations)
+### Description of Equipment & List of Materials (with illustrations)
 
-Code example
+### Code example
 
-Installation instructions
+```
+[Sound]
+music=on
+sfx=on
+speech=on
+buffers=20,2000
 
-Example(s) of your code (if applicable)
+[cdrom]
+rsrcpath=C:\Users\DEEJ\Desktop\OT2
+intromovieid=100
 
-FAQs
 
-Troubleshooting/Where to Get Support
+speed=1
+[game]
+speed=1
 
-How to Contribute
+```
+
+### Installation instructions
+
+### Example(s) of your code (if applicable)
+
+### FAQs
+
+### Troubleshooting
+
+### How to Contribute
 
 ### Licensing
 
@@ -29,8 +48,7 @@ Oregon Trail is considered abandonware. That is software that was made to be sol
 
 ### Download
 
-Here is a download to the game
-[Download](https://drive.google.com/file/d/1ZRpL7KFqrYPmRFTfEWE4R_iJDDDRlwTj/view?usp=sharing ".zip folder with .iso of Oregon Trail II")
+You can find it easily with a quick Google search, but [this](https://drive.google.com/file/d/1ZRpL7KFqrYPmRFTfEWE4R_iJDDDRlwTj/view?usp=sharing ".zip folder with .iso of Oregon Trail II") is the version used by this tutorial.
 
 ### Markdown
 
