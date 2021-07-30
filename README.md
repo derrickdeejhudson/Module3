@@ -54,16 +54,6 @@ speed=1
 ![step9](https://raw.githubusercontent.com/derrickdeejhudson/Oregon-Trail-II/main/Images/step9.png)
 ![step10](https://raw.githubusercontent.com/derrickdeejhudson/Oregon-Trail-II/main/Images/step10.png)
 
-## FAQs
-
-### Why do I just see a black screen?
-
-It will go away, let it run for a few seconds think click. The window should open from there.
-
-### Why isn't my sound working?
-
-The music is muted by default, you can change that in the settings. Once you've turned music on you need to start an adventure then quit it to start hearing the main menu theme.
-
 ## Troubleshooting
 
 If you are having trouble connecting to your directory, you can run the game from the mounted disc.
@@ -72,6 +62,8 @@ If you are having trouble connecting to your directory, you can run the game fro
 You want to edit the OREGONII.INI
 
 ![step4](https://raw.githubusercontent.com/derrickdeejhudson/Oregon-Trail-II/main/Images/step4.png)
+
+The contents of which look like this.
 
 ```
 [Sound]
@@ -91,9 +83,23 @@ speed=1
 
 ```
 
-Change the highlighted portion to the source of your BD-ROM Drive (E:) (or whatever yours is)
+Change the highlighted portion to the source of CD drive.
+
 ![step6](https://raw.githubusercontent.com/derrickdeejhudson/Oregon-Trail-II/main/Images/step6.png)
+
+Mine is BD-ROM Drive (E:)
+
 ![step7](https://raw.githubusercontent.com/derrickdeejhudson/Oregon-Trail-II/main/Images/step7.png)
+
+## FAQs
+
+### Why do I just see a black screen?
+
+It will go away, let it run for a few seconds think click. The window should open from there.
+
+### Why isn't my sound working?
+
+The music is muted by default, you can change that in the settings. Once you've turned music on you need to start an adventure then quit it to start hearing the main menu theme.
 
 ## Licensing
 
@@ -102,5 +108,3 @@ Oregon Trail is considered abandonware. That is software that was made to be sol
 ## Support
 
 Create an [Issue](https://github.com/derrickdeejhudson/Oregon-Trail-II/issues)
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
