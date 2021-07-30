@@ -1,6 +1,6 @@
 ## Introduction
 
-The Oregon Trail series were a collection of educational games from the mid 1990's. It was designed to run on Windows 95 and will not by default run on windows 10. This is a guide to make this vintage classic game operate on modern Windows.
+The Oregon Trail series was a collection of educational games from the mid 1990's. It was designed to run on Windows 95 and will not by default run on windows 10. This is a guide to make this vintage classic game operate on modern Windows.
 
 ![Error on PC](https://raw.githubusercontent.com/derrickdeejhudson/Oregon-Trail-II/main/Images/step1.png "You aren't on Windows '95")
 
