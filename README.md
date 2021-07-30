@@ -12,7 +12,6 @@ The Oregon Trail series were a collection of educational games from the mid 1990
 - Software to mount an .iso file
 - Oregon Trail .iso file
 
-![Daemon Tools](https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Daemon_tools_logo.png/120px-Daemon_tools_logo.png)
 I use [this](https://daemon-tools-lite.en.softonic.com/ "Daemon Tools Lite") but you may already have something that works. You can test by right clicking the a .iso file, if "mount" is an option then you already have what you need.
 
 ### Download
@@ -45,57 +44,63 @@ speed=1
 
 ### Example(s) of your code (if applicable)
 
-### FAQs
-
-### Troubleshooting
-
 ### How to Contribute
 
-### Licensing
-
-Oregon Trail is considered abandonware. That is software that was made to be sold but is no longer being sold either online or in physical form by the original developer. In the case of Oregon Trail the software company that made many educational games, Softkey, has been out of business for over 20 years.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-[Cool Website](https://agar.io)
-
 ![step2](https://raw.githubusercontent.com/derrickdeejhudson/Oregon-Trail-II/main/Images/step2.png)
-![step3](https://raw.githubusercontent.com/derrickdeejhudson/Oregon-Trail-II/main/Images/step3.png)
-![step4](https://raw.githubusercontent.com/derrickdeejhudson/Oregon-Trail-II/main/Images/step4.png)
+
 ![step5](https://raw.githubusercontent.com/derrickdeejhudson/Oregon-Trail-II/main/Images/step5.png)
-![step6](https://raw.githubusercontent.com/derrickdeejhudson/Oregon-Trail-II/main/Images/step6.png)
-![step7](https://raw.githubusercontent.com/derrickdeejhudson/Oregon-Trail-II/main/Images/step7.png)
+
 ![step8](https://raw.githubusercontent.com/derrickdeejhudson/Oregon-Trail-II/main/Images/step8.png)
 ![step9](https://raw.githubusercontent.com/derrickdeejhudson/Oregon-Trail-II/main/Images/step9.png)
 ![step10](https://raw.githubusercontent.com/derrickdeejhudson/Oregon-Trail-II/main/Images/step10.png)
 
-```markdown
-Syntax highlighted code block
+## FAQs
 
-# Header 1
+### Why do I just see a black screen?
 
-## Header 2
+It will go away, let it run for a few seconds think click. The window should open from there.
 
-### Header 3
+### Why isn't my sound working?
 
-- Bulleted
-- List
+The music is muted by default, you can change that in the settings. Once you've turned music on you need to start an adventure then quit it to start hearing the main menu theme.
 
-1. Numbered
-2. List
+## Troubleshooting
 
-**Bold** and _Italic_ and `Code` text
-[Cool Website](agar.io)
-[Link](url) and ![Image](src)
+If you are having trouble connecting to your directory, you can run the game from the mounted disc.
+![step3](https://raw.githubusercontent.com/derrickdeejhudson/Oregon-Trail-II/main/Images/step3.png)
+
+You want to edit the OREGONII.INI
+
+![step4](https://raw.githubusercontent.com/derrickdeejhudson/Oregon-Trail-II/main/Images/step4.png)
+
+```
+[Sound]
+music=on
+sfx=on
+speech=on
+buffers=20,2000
+
+[cdrom]
+rsrcpath=d:\data
+intromovieid=100
+
+
+speed=1
+[game]
+speed=1
+
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Change the highlighted portion to the source of your BD-ROM Drive (E:) (or whatever yours is)
+![step6](https://raw.githubusercontent.com/derrickdeejhudson/Oregon-Trail-II/main/Images/step6.png)
+![step7](https://raw.githubusercontent.com/derrickdeejhudson/Oregon-Trail-II/main/Images/step7.png)
 
-### Jekyll Themes
+## Licensing
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/derrickdeejhudson/Module3/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Oregon Trail is considered abandonware. That is software that was made to be sold but is no longer being sold either online or in physical form by the original developer. In the case of Oregon Trail the software company that made many educational games, Softkey, has been out of business for over 20 years.
 
-### Support or Contact
+## Support
+
+Create an [Issue](https://github.com/derrickdeejhudson/Oregon-Trail-II/issues)
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
