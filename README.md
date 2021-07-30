@@ -4,6 +4,28 @@ You can use the [editor on GitHub](https://github.com/derrickdeejhudson/Module3/
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+### Introduction
+
+The Oregon Trail series were a collection of educational games from the mid 1990's.
+
+Description of Equipment & List of Materials (with illustrations)
+
+Code example
+
+Installation instructions
+
+Example(s) of your code (if applicable)
+
+FAQs
+
+Troubleshooting/Where to Get Support
+
+How to Contribute
+
+### Licensing
+
+Oregon Trail is considered abandonware. That is software that was made to be sold but is no longer being sold either online or in physical form by the original developer. In the case of Oregon Trail the software company that made many educational games, Softkey, has been out of business for over 20 years.
+
 ### Download
 
 Here is a download to the game
