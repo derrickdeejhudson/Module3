@@ -7,8 +7,8 @@ The Oregon Trail series was a collection of educational games from the mid 1990'
 ### Requirements
 
 - Windows
-- Software to mount an .iso file
 - Oregon Trail .iso file
+- Software to mount an .iso file
 
 ## Download
 
@@ -38,7 +38,7 @@ Edit the OREGONII.INI file
 
 ![step4](https://raw.githubusercontent.com/derrickdeejhudson/Oregon-Trail-II/main/Images/step4.png)
 
-## Code example
+### Code example
 
 The contents of which look like this.
 
@@ -98,7 +98,7 @@ intromovieid=100
 
 we now want to set to the destination path of the folder you made.
 
-## Code example
+### Code example
 
 This is what the contents of OREGONII.INI look like on my machine.
 
@@ -120,7 +120,7 @@ speed=1
 
 ```
 
-### How to Contribute
+## How to Contribute
 
 This is for the purposes of archiving games from the past that don't deserve to be forgotten. You can contribute by trying the game out for yourself so it won't be forgotten!
 
