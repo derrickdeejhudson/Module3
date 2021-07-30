@@ -6,7 +6,8 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ### Introduction
 
-The Oregon Trail series were a collection of educational games from the mid 1990's.
+The Oregon Trail series were a collection of educational games from the mid 1990's. It was designed to run on Windows 95 and will not run on windows 10. This is a guide to make this vintage classic game operate on modern Windows.
+![Error on PC](https://raw.githubusercontent.com/derrickdeejhudson/Oregon-Trail-II/main/Images/step1.png "You aren't on Windows '95")
 
 Description of Equipment & List of Materials (with illustrations)
 
@@ -35,7 +36,7 @@ Here is a download to the game
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 [Cool Website](https://agar.io)
-![Error on PC](https://raw.githubusercontent.com/derrickdeejhudson/Oregon-Trail-II/main/Images/step1.png "You aren't on Windows '95")
+
 ![step2](https://raw.githubusercontent.com/derrickdeejhudson/Oregon-Trail-II/main/Images/step2.png)
 ![step3](https://raw.githubusercontent.com/derrickdeejhudson/Oregon-Trail-II/main/Images/step3.png)
 ![step4](https://raw.githubusercontent.com/derrickdeejhudson/Oregon-Trail-II/main/Images/step4.png)
